@@ -111,7 +111,17 @@
     }
   
 }
-@media (max-width: 400px) {
+
+@media (max-width: 550px) {
+    #section-3{
+        margin-top: 400px
+        
+    }
+}
+
+
+
+@media (max-width: 410px) {
     #f1{
         width: 100%;
         margin-top: 10px;
@@ -130,6 +140,10 @@
     }
     .features-img{
         padding-top: 30px
+    }
+    #section-3{
+        margin-top: 350px
+        
     }
 }
 
