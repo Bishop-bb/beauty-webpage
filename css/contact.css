@@ -1,0 +1,140 @@
+/* SECTION 6 */
+#section-6{
+    overflow: hidden;
+        clear: both;
+    /* height: 500px; */
+    /* overflow:visible; */
+    background: linear-gradient(rgb(182, 72, 72), black);
+}
+#connect h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#connect p{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+
+}
+
+#section-6 span{
+    font-size: 25px;
+
+}
+
+#section-6 #work p{
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 42px;
+}
+#office #address{
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 33px;
+}
+
+#social #aa{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#aa a{
+    color: white;
+    text-decoration: none;
+}
+
+#section-6 #work{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+#section-6 #office{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+#section-6 #social{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+#section-6 #ch{
+    text-align: left;
+    clear: both;
+    padding: 20px;
+    padding-top: 80px;
+    /* font-size: 20px; */
+}
+
+#ch a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+/* MEDIA QUERY FOR CONTACT */
+
+@media (max-width: 900px) {
+    #section-6 #work{
+        width: 50%;
+    }
+    #section-6 #office{
+        width: 50%;
+        padding-right: 50px
+    }
+    #section-6 #social{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 620px) {
+    #section-6{
+        overflow: hidden;
+    }
+    #section-6 #work{
+        width: 100%;
+    }
+    #section-6 #office{
+        width: 100%;
+        /* padding-right: 50px */
+        padding-left: 50px;
+        margin-top: 30px;
+    
+    }
+    #section-6 #social{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #connect h1{
+        padding: 20px;
+    }
+    #connect p{
+        padding-bottom: 40px;
+    }
+    #ch a{
+        font-size: 20px;
+        text-align: center;
+    }
+    #section-6 #ch{
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {
+    #section-6{
+        overflow: hidden;
+        clear: both;
+    }
+}

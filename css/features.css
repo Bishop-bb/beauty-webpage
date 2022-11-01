@@ -1,0 +1,144 @@
+#section-3{
+    clear: both;
+    margin: 60px 0;
+    overflow: hidden;
+    
+}
+
+#sec-3-header p{
+    font-size: 25px;
+    padding: 20px;
+    font-style: italic;
+
+}
+
+#sec-3-header h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.features-img > div{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.features-img p{
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+
+.features-img span{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.features-img > div > div{
+    font-size: 30px;
+    padding-left: 45px;
+    /* padding-top: 40px; */
+    padding-right: 25px;
+}
+
+
+/* FEATURES MEDIA QUERY */
+
+@media (max-width: 850px) {
+    #f1{
+        width: 33.3%;
+    }
+    
+    #f2{
+        width: 33.3%;
+    }
+    #f3{
+        width: 33.3%;
+    }
+    #f4{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 700px) {
+    
+    #f1{
+        width: 50%;
+    }
+    
+    #f2{
+        width: 50%;
+    }
+    #f3{
+        width: 50%;
+        margin-top: 10px;
+    }
+    #f4{
+        width: 50%;
+    }
+    .features-img > div > div{
+        font-size: 25px;
+        /* padding-left: 40px; */
+    }
+    .features-img p{
+        font-size: 25px;
+    }
+    .features-img span{
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 650px) {
+    #section-3{
+        margin-top: 450px
+        
+    }
+        
+    #f1{
+        width: 50%;
+    }
+    
+    #f2{
+        width: 50%;
+    }
+    #f3{
+        width: 50%;
+        margin-top: 10px;
+    }
+    #f4{
+        width: 50%;
+    }
+  
+}
+@media (max-width: 400px) {
+    #f1{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    #f2{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #f3{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #f4{
+        width: 100%;
+    }
+    .features-img{
+        padding-top: 30px
+    }
+}
+
+@media (max-width: 350px) {
+    #section-3{
+        margin-top: 400px;
+    }
+    #sec-3-header h1{
+        font-size: 30px;
+    }
+
+}

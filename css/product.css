@@ -1,0 +1,143 @@
+/* SECTION 5 */
+#section-5{
+    height: 699px;
+}
+#pro h1{
+    font-size: 35px;
+    padding-top: 40px;
+    padding: 40px;
+}
+
+#pro p{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+#section-5 img{
+    width: 100%;
+    height: 250px;
+    padding: 3px;
+    border-radius: 25px;
+}
+
+ #pro-1 #p1{
+    width: 33.3%;
+    float: left;
+}
+
+#pro-1 #p2{
+    width: 33.3%;
+    float: left;
+}
+
+#pro-1 #p3{
+    width: 33.3%;
+    float: left;
+}
+#pro-2 #p4{
+    width: 33.3%;
+    float: left;
+}
+
+#pro-2 #p5{
+    width: 33.3%;
+    float: left;
+}
+
+#pro-2 #p6{
+    width: 33.3%;
+    float: left;
+}
+
+/* MEDIA QUERY FOR PRODUCTS */
+
+@media (max-width: 850px) {
+    #pro-1 #p1{
+        width: 50%;
+        float: left;
+    }
+    #pro-1 #p2{
+        width: 50%;
+        float: left;
+    }
+    #pro-1 #p3{
+        width: 50%;
+        float: left;
+    }
+    #pro-2 #p4{
+        width: 50%;
+        float: left;
+    }
+    #pro-2 #p5{
+        width: 50%;
+        float: left;
+    }
+    #pro-2 #p6{
+        width: 50%;
+        float: left;
+    }
+    #section-5{
+        /* overflow: hidden; */
+        height: 953px;
+    }
+}
+
+@media (max-width: 530px) {
+    #pro h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    #section-5{
+        overflow: hidden;
+        clear: both;
+        height: 1950px;
+    }
+    #pro-1 #p1{
+        width: 100%;
+        padding: 20px;
+        overflow: hidden;
+        clear: both;
+        /* float: left; */
+    }
+    #pro-1 #p2{
+        width: 100%;
+        padding: 20px;
+        overflow: hidden;
+        clear: both;
+        /* float: left; */
+    }
+    #pro-1 #p3{
+        width: 100%;
+        padding: 20px;overflow: hidden;
+        clear: both;
+        /* float: left; */
+    }
+    #pro-2 #p4{
+        width: 100%;
+        overflow: hidden;
+        clear: both;
+        padding: 20px;
+        /* float: left; */
+    }
+    #pro-2 #p5{
+        overflow: hidden;
+        clear: both;
+        width: 100%;
+        padding: 20px;
+        /* float: left; */
+    }
+    #pro-2 #p6{
+        width: 100%;
+        padding: 20px;
+        overflow: hidden;
+        clear: both;
+        /* float: left; */
+    }
+    #section-5{
+        /* height: 1930px; */
+        overflow: hidden;
+        clear: both;
+    }
+}  
