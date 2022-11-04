@@ -99,7 +99,8 @@
 #section-2{
     background-color: rgb(182, 72, 72);
     height: 510px;
-    clear: both;
+    /* clear: both; */
+    /* overflow: hidden; */
     
 }
 #section-2 #beauty{
@@ -109,6 +110,7 @@
     /* background-color: rgb(182, 72, 72); */
     height: 450px;
     padding-top: 30px;
+   
     
 }
 
@@ -116,6 +118,7 @@
     width: 50%;
     float: left;
     padding: 30px;
+    /* clear: both; */
     /* padding: 30px; */
     /* height: 450px; */
 }
@@ -333,7 +336,8 @@
                 width: 100%;
                 float: none;
                 height: 450px;
-                background-color: black;
+                /* background-color: black; */
+                background-color: rgb(182, 72, 72);
                 
                 }
                 #beauty-img img{
@@ -362,7 +366,8 @@
                 width: 100%;
                 float: none;
                 height: 450px;
-                background-color: black;
+                background-color: rgb(182, 72, 72);
+                /* background-color: black; */
                 }
                 #beauty-img img{
                     width: 100%;
@@ -385,7 +390,8 @@
                 width: 100%;
                 float: none;
                 height: 400px;
-                background-color: black;
+                /* background-color: black; */
+                background-color: rgb(182, 72, 72);
                 
                 }
                 #beauty-img img{
@@ -410,7 +416,8 @@
                 width: 100%;
                 float: none;
                 height: 350px;
-                background-color: black;
+                /* background-color: black; */
+                background-color: rgb(182, 72, 72);
                 
                 }
                 #beauty-img img{
@@ -440,7 +447,8 @@
                 width: 100%;
                 float: none;
                 height: 325px;
-                background-color: black;
+                /* background-color: black; */
+                background-color: rgb(182, 72, 72);
                 }
                 #beauty-img img{
                     width: 100%;
@@ -479,6 +487,7 @@
             #nav2 .low{
                 padding-left: 10px;
             }
+           
 
         }
         
