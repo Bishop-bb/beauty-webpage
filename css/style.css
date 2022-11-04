@@ -460,4 +460,26 @@
                 font-size: 20px;
             }
         }
+        @media (max-width: 245px) {
+            #nav2 li a{
+                font-size: 17px;
+            }
+        }
+        @media (max-width: 230px) {
+            #nav2 .watch{
+                text-align: left;
+                padding-left: 0;
+            }
+            #nav2 .start{
+                text-align: left;
+            }
+            #nav2 li{
+                padding-left: 10px;
+            }
+            #nav2 .low{
+                padding-left: 10px;
+            }
+
+        }
+        
 
